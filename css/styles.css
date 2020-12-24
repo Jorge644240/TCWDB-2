@@ -1,0 +1,149 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Verdana', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1
+{
+    font-size: 5.625rem;
+    font-family: 'Sacramento';
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+h2
+{
+    font-size: 2rem;
+    font-family: 'Quicksand';
+    color: #66BFBF;
+}
+h3
+{
+    font-size: 1.5rem;
+}
+h3, a
+{
+    font-family: 'Poiret One';
+    color: #11999E;
+}
+a
+{
+    font-weight: bold;
+}
+p
+{
+    font-family: 'Nova Flat';
+}
+.top-container h2
+{
+    font-weight: normal;
+}
+.top-container
+{
+    color: white;
+    padding: 8px;
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.top-container h1, .top-container p
+{
+    margin-top: 0;
+}
+.top-container p span
+{
+    text-decoration: underline;
+}
+.bottom-cloud
+{
+    position: absolute;
+}
+.top-cloud
+{
+    position: absolute;
+    right: 25%;
+}
+.skills
+{
+    display: block;
+}
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+#profile-picture
+{
+    width: 15%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.skills-image
+{
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+#writing-image
+{
+    float: right;
+    margin-left: 30px;
+}
+#writing-image + h3
+{
+    margin-top: 50px;
+}
+hr
+{
+    color: #EAF6F6;
+    width: 10%;
+    border-width: 10px;
+    border-style: dotted none none;
+    height: 0;
+}
+.btn
+{
+    line-height: 10; 
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+.btn:hover
+{
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+}
+.bottom-container
+{
+    background-color: #66BFBF;
+    padding: 30px;
+    line-height: 3;
+}
+.footer-link
+{
+    color: #11999E;
+    margin: 15px;
+}
+.bottom-container p
+{
+    color: #EAF6F6;
+}
+.profile, .skills, .contact-me
+{
+    margin: 100px 0;
+}
+.contact-me
+{
+    margin-bottom: 20px;
+}
+.profile p
+{
+    width: 30%;
+    margin: 0 auto;
+    line-height: 2;
+}
